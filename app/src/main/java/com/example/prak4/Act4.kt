@@ -62,6 +62,32 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
                         .padding(all = 5.dp)
                 )
                 Spacer(modifier = Modifier.width(30.dp))
-
+                Column {
+                    Text(
+                        text = "Reyhan arya yudha",
+                        fontSize = 30.sp,
+                        fontFamily = FontFamily.Cursive,
+                        color = Color.White,
+                        modifier = Modifier.padding(top = 15.dp)
+                    )
+                    Text(
+                        text = "kasihan,bantul",
+                        fontSize = 20.sp,
+                        color = Color.Yellow,
+                        modifier = Modifier.padding(top = 10.dp)
+                    )
+                }
+            }
+        }
+        Box(
+            modifier = Modifier.fillMaxSize()
+        ) {
+            Text(
+                text = stringResource(id = R.string.copy),
+                modifier = Modifier
+                    .align(Alignment.BottomCenter)
+                    .padding(bottom = 50.dp)
+            )
+        }
     }
 }
